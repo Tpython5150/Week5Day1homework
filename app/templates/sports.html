@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for a in athletes %}
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top my_card_image" src="{{ a['image']}}" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{a.name}}</p>
+        </div>
+    </div>
+{% endfor %}
+<br>
+
+
+
+
+
+
+
+
+
+
+<a href="/">Return Home</a>
+
+
+
+{% endblock %}    

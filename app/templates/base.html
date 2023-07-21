@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https:cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.4css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="assets/css/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    <title>Fav-Five</title>
+        {% block title %}
+        {% endblock %}
+</head>
+<body> 
+    {% include 'navbar.html' %} 
+        {% block content %}
+
+        {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script> 
+    <script src="https://cdjns.cloudfare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script> 
+    <script src="https://cdjns.cloudfare.com?ajax/libs/twitter_bootstrap.min.js"></script>    
+</body>
+</html>

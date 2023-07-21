@@ -1,0 +1,15 @@
+body { 
+    background-image: url('./corner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my_card_image {
+    height: 240px;
+    width: 290px;
+   
+
+}
+h1{
+    color:red;
+}
